@@ -1,0 +1,288 @@
+# 🏨 Hotel Reservation System (Java)
+
+A Java-based Hotel Reservation System that allows users to search, book, and cancel hotel rooms through a console interface. The project demonstrates Object-Oriented Programming (OOP) concepts, collections, and basic payment simulation.
+
+---
+
+# 📌 Features
+
+- Search available rooms
+- Book hotel rooms
+- Cancel reservations
+- View booked rooms
+- Room categorization (Standard, Deluxe, Suite)
+- Payment simulation
+- Console-based user interface
+- Object-Oriented Design
+
+---
+
+# 🛠 Technologies Used
+
+- Java
+- Java Collections Framework (ArrayList)
+- Object-Oriented Programming (OOP)
+- Scanner Class
+
+---
+
+# 📂 Project Structure
+
+```
+HotelReservationSystem/
+│
+├── HotelReservation.java
+├── Room.java
+└── README.md
+```
+
+---
+
+# ⚙️ How It Works
+
+1. The application loads predefined hotel rooms.
+2. The user selects an option from the main menu.
+3. Available rooms are displayed.
+4. The user books a room by entering its room number.
+5. Payment is simulated.
+6. The booking status is updated.
+7. Users can cancel bookings or view all booked rooms.
+
+---
+
+# 🧩 Functional Modules
+
+## 1. Room Management
+
+Stores room details including:
+
+- Room Number
+- Room Type
+- Booking Status
+
+Example:
+
+```
+Room 101
+Type: Standard
+Status: Available
+```
+
+---
+
+## 2. Search Rooms
+
+Displays all rooms that are currently available for booking.
+
+Example:
+
+```
+Available Rooms
+
+101 - Standard
+102 - Standard
+201 - Deluxe
+301 - Suite
+```
+
+---
+
+## 3. Book Room
+
+Allows users to reserve an available room.
+
+Steps:
+
+- Display available rooms
+- Enter room number
+- Confirm booking
+- Simulate payment
+
+---
+
+## 4. Payment Simulation
+
+Provides simple payment options.
+
+```
+1. UPI
+2. Card
+```
+
+After selection:
+
+```
+Payment Successful.
+```
+
+---
+
+## 5. Cancel Booking
+
+Users can cancel an existing reservation.
+
+After cancellation:
+
+```
+Booking Cancelled.
+```
+
+---
+
+## 6. View Bookings
+
+Displays all booked rooms.
+
+Example:
+
+```
+Booked Rooms
+
+101 - Standard
+201 - Deluxe
+```
+
+---
+
+# 📋 Sample Output
+
+```
+===== HOTEL MENU =====
+
+1. Search Rooms
+2. Book Room
+3. Cancel Booking
+4. View Bookings
+5. Exit
+
+Enter Choice: 2
+
+Available Rooms
+
+101 - Standard
+102 - Standard
+201 - Deluxe
+301 - Suite
+
+Enter Room Number:
+201
+
+Room Booked Successfully.
+
+Payment Simulation
+
+1. UPI
+2. Card
+
+Choose Payment:
+1
+
+Payment Successful.
+```
+
+---
+
+# 🧱 OOP Concepts Used
+
+✔ Classes
+
+✔ Objects
+
+✔ Encapsulation
+
+✔ Constructors
+
+✔ ArrayList
+
+✔ Methods
+
+✔ Object Manipulation
+
+---
+
+# 📊 Data Structures Used
+
+- ArrayList
+- Scanner
+- Custom Java Classes
+
+---
+
+# 🔄 System Workflow
+
+```
+Start
+      │
+      ▼
+Load Rooms
+      │
+      ▼
+Display Menu
+      │
+      ▼
+Search / Book / Cancel / View
+      │
+      ▼
+Update Booking Status
+      │
+      ▼
+Display Result
+      │
+      ▼
+Exit
+```
+
+---
+
+# 💡 Advantages
+
+- Easy to understand
+- Simple user interface
+- Fast room booking
+- Demonstrates OOP concepts
+- Beginner-friendly project
+- Easy to extend
+
+---
+
+# ⚠️ Limitations
+
+- No database integration
+- Data is not permanently stored
+- Console-based interface
+- No login system
+- No customer information
+- No invoice generation
+- No real payment gateway
+
+---
+
+# 🚀 Future Enhancements
+
+- Java Swing GUI
+- MySQL or SQLite Database
+- Customer Registration
+- Admin Login
+- Booking History
+- Online Payment Gateway
+- Check-in / Check-out Module
+- Bill Generation
+- Email Confirmation
+- Room Availability Reports
+- File Handling for Permanent Storage
+
+---
+
+# 👨‍💻 Author
+
+**Narender Yadav**
+
+B.Tech (AI & ML)
+
+Java Internship Project
+
+---
+
+# 📄 License
+
+This project is developed for educational and internship purposes.
